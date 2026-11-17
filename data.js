@@ -116,7 +116,7 @@ Name a type of bread|sourdough,rye,whole wheat,white bread,baguette,ciabatta,foc
 Name a sandwich filling|turkey,ham,cheese,tuna,peanut butter,jelly,chicken,egg salad,bacon,lettuce,tomato,avocado,roast beef
 Name a fast food restaurant|mcdonalds,burger king,wendys,taco bell,chipotle,subway,popeyes,kfc,chick fil a,shake shack,five guys,arbys
 Name a soft drink|coca cola,pepsi,sprite,fanta,dr pepper,mountain dew,root beer,ginger ale,7up,orange soda
-Name a flavor of tea|earl grey,english breakfast,green tea,black tea,chamomile,peppermint,hibiscus,oolong,jasmine,ch200ai
+Name a flavor of tea|earl grey,english breakfast,green tea,black tea,chamomile,peppermint,hibiscus,oolong,jasmine,chai
 `;
 const base=raw.trim().split('\n').map((line,id)=>{const [prompt,answerLine]=line.split('|');return {id,prompt,answers:answerLine.split(',').filter(Boolean)}});
 const starters=['Name','List','Type','Think of','Give me','Enter','Identify','Can you name','Can you list','Write','Supply','Provide','Find','Tell me','Come up with','Choose','Pick','Say','Submit','What is'];
