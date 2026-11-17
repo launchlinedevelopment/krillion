@@ -1,0 +1,1 @@
+{"framework":null,"buildCommand":"npm run build","outputDirectory":".","functions":{"api/*.js":{"maxDuration":10}},"rewrites":[{"source":"/","destination":"/index.html"}]}
