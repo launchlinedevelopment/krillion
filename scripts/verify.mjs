@@ -1,0 +1,1 @@
+import fs from 'node:fs';for(const path of ['index.html','style.css','app.js','data.js','api/auth.js','api/progress.js'])if(!fs.existsSync(path))throw Error('Missing '+path);console.log('Static game and API files verified');
